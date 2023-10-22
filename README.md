@@ -22,6 +22,9 @@
 -	Q: **_"Where can I find the doc?"_**\
 	A: `v doc delta456.catppuccin`
 
+-   Q:  **_"How do I use the module?"_**\
+    A: Check out [examples](./examples/main.v)
+
 ## 💝 Thanks to
 
 - [Swastik Baranwal](https://github.com/Delta456)
