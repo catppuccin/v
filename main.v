@@ -44,10 +44,10 @@ pub fn (c Color) rgba() (int, int, int, int) {
 pub fn variant(flavour string) ?Flavour {
 	mocha := Mocha{}
 	frappe := Frappe{}
-	macciato := Macciato{}
+	macchiato := Macchiato{}
 	latte := Latte{}
 
-	for flav in [Flavour(mocha), frappe, macciato, latte] {
+	for flav in [Flavour(mocha), frappe, macchiato, latte] {
 		if flav.str() == flavour {
 			return flav
 		}

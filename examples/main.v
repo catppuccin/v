@@ -6,10 +6,10 @@ import term
 fn main() {
 	mocha := catppuccin.new_mocha()
 	frappe := catppuccin.new_frappe()
-	macciato := catppuccin.new_macciato()
+	macchiato := catppuccin.new_macchiato()
 	latte := catppuccin.new_latte()
 
-	for flav in [catppuccin.Flavour(mocha), frappe, macciato, latte] {
+	for flav in [catppuccin.Flavour(mocha), frappe, macchiato, latte] {
 		println(flav.str())
 		format('rosewater', flav.rosewater())
 		format('flamingo', flav.flamingo())

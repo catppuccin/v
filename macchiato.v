@@ -1,16 +1,16 @@
 module catppuccin
 
-pub struct Macciato {}
+pub struct Macchiato {}
 
-pub fn new_macciato() Macciato {
-	return Macciato{}
+pub fn new_macchiato() Macchiato {
+	return Macchiato{}
 }
 
-pub fn (_ Macciato) str() string {
-	return 'Macciato'
+pub fn (_ Macchiato) str() string {
+	return 'Macchiato'
 }
 
-pub fn (_ Macciato) rosewater() Color {
+pub fn (_ Macchiato) rosewater() Color {
 	return Color{
 		hex: '0xf4dbd6'
 		rgb: [244, 219, 214]!
@@ -18,7 +18,7 @@ pub fn (_ Macciato) rosewater() Color {
 	}
 }
 
-pub fn (_ Macciato) flamingo() Color {
+pub fn (_ Macchiato) flamingo() Color {
 	return Color{
 		hex: '0xf0c6c6'
 		rgb: [240, 198, 198]!
@@ -26,7 +26,7 @@ pub fn (_ Macciato) flamingo() Color {
 	}
 }
 
-pub fn (_ Macciato) pink() Color {
+pub fn (_ Macchiato) pink() Color {
 	return Color{
 		hex: '0xf5bde6'
 		rgb: [245, 189, 230]!
@@ -34,7 +34,7 @@ pub fn (_ Macciato) pink() Color {
 	}
 }
 
-pub fn (_ Macciato) mauve() Color {
+pub fn (_ Macchiato) mauve() Color {
 	return Color{
 		hex: '0xc6a0f6'
 		rgb: [198, 160, 246]!
@@ -42,7 +42,7 @@ pub fn (_ Macciato) mauve() Color {
 	}
 }
 
-pub fn (_ Macciato) red() Color {
+pub fn (_ Macchiato) red() Color {
 	return Color{
 		hex: '0xed8796'
 		rgb: [237, 135, 150]!
@@ -50,7 +50,7 @@ pub fn (_ Macciato) red() Color {
 	}
 }
 
-pub fn (_ Macciato) maroon() Color {
+pub fn (_ Macchiato) maroon() Color {
 	return Color{
 		hex: '0xee99a0'
 		rgb: [238, 153, 160]!
@@ -58,7 +58,7 @@ pub fn (_ Macciato) maroon() Color {
 	}
 }
 
-pub fn (_ Macciato) peach() Color {
+pub fn (_ Macchiato) peach() Color {
 	return Color{
 		hex: '0xf5a97f'
 		rgb: [245, 169, 127]!
@@ -66,7 +66,7 @@ pub fn (_ Macciato) peach() Color {
 	}
 }
 
-pub fn (_ Macciato) yellow() Color {
+pub fn (_ Macchiato) yellow() Color {
 	return Color{
 		hex: '0xeed49f'
 		rgb: [238, 212, 159]!
@@ -74,7 +74,7 @@ pub fn (_ Macciato) yellow() Color {
 	}
 }
 
-pub fn (_ Macciato) green() Color {
+pub fn (_ Macchiato) green() Color {
 	return Color{
 		hex: '0xa6da95'
 		rgb: [166, 218, 149]!
@@ -82,7 +82,7 @@ pub fn (_ Macciato) green() Color {
 	}
 }
 
-pub fn (_ Macciato) teal() Color {
+pub fn (_ Macchiato) teal() Color {
 	return Color{
 		hex: '0x8bd5ca'
 		rgb: [139, 213, 202]!
@@ -90,7 +90,7 @@ pub fn (_ Macciato) teal() Color {
 	}
 }
 
-pub fn (_ Macciato) sky() Color {
+pub fn (_ Macchiato) sky() Color {
 	return Color{
 		hex: '0x91d7e3'
 		rgb: [145, 215, 227]!
@@ -98,7 +98,7 @@ pub fn (_ Macciato) sky() Color {
 	}
 }
 
-pub fn (_ Macciato) sapphire() Color {
+pub fn (_ Macchiato) sapphire() Color {
 	return Color{
 		hex: '0x7dc4e4'
 		rgb: [125, 196, 228]!
@@ -106,7 +106,7 @@ pub fn (_ Macciato) sapphire() Color {
 	}
 }
 
-pub fn (_ Macciato) blue() Color {
+pub fn (_ Macchiato) blue() Color {
 	return Color{
 		hex: '0x8aadf4'
 		rgb: [138, 173, 244]!
@@ -114,7 +114,7 @@ pub fn (_ Macciato) blue() Color {
 	}
 }
 
-pub fn (_ Macciato) lavender() Color {
+pub fn (_ Macchiato) lavender() Color {
 	return Color{
 		hex: '0xb7bdf8'
 		rgb: [183, 189, 248]!
@@ -122,7 +122,7 @@ pub fn (_ Macciato) lavender() Color {
 	}
 }
 
-pub fn (_ Macciato) text() Color {
+pub fn (_ Macchiato) text() Color {
 	return Color{
 		hex: '0xcad3f5'
 		rgb: [202, 211, 245]!
@@ -130,7 +130,7 @@ pub fn (_ Macciato) text() Color {
 	}
 }
 
-pub fn (_ Macciato) subtext1() Color {
+pub fn (_ Macchiato) subtext1() Color {
 	return Color{
 		hex: '0xb8c0e0'
 		rgb: [184, 192, 224]!
@@ -138,7 +138,7 @@ pub fn (_ Macciato) subtext1() Color {
 	}
 }
 
-pub fn (_ Macciato) subtext0() Color {
+pub fn (_ Macchiato) subtext0() Color {
 	return Color{
 		hex: '0xa5adcb'
 		rgb: [165, 173, 203]!
@@ -146,7 +146,7 @@ pub fn (_ Macciato) subtext0() Color {
 	}
 }
 
-pub fn (_ Macciato) overlay2() Color {
+pub fn (_ Macchiato) overlay2() Color {
 	return Color{
 		hex: '0x939ab7'
 		rgb: [147, 154, 183]!
@@ -154,7 +154,7 @@ pub fn (_ Macciato) overlay2() Color {
 	}
 }
 
-pub fn (_ Macciato) overlay1() Color {
+pub fn (_ Macchiato) overlay1() Color {
 	return Color{
 		hex: '0x8087a2'
 		rgb: [128, 135, 162]!
@@ -162,7 +162,7 @@ pub fn (_ Macciato) overlay1() Color {
 	}
 }
 
-pub fn (_ Macciato) overlay0() Color {
+pub fn (_ Macchiato) overlay0() Color {
 	return Color{
 		hex: '0x6e738d'
 		rgb: [110, 115, 141]!
@@ -170,7 +170,7 @@ pub fn (_ Macciato) overlay0() Color {
 	}
 }
 
-pub fn (_ Macciato) surface2() Color {
+pub fn (_ Macchiato) surface2() Color {
 	return Color{
 		hex: '0x5b6078'
 		rgb: [91, 96, 120]!
@@ -178,7 +178,7 @@ pub fn (_ Macciato) surface2() Color {
 	}
 }
 
-pub fn (_ Macciato) surface1() Color {
+pub fn (_ Macchiato) surface1() Color {
 	return Color{
 		hex: '0x494d64'
 		rgb: [73, 77, 100]!
@@ -186,7 +186,7 @@ pub fn (_ Macciato) surface1() Color {
 	}
 }
 
-pub fn (_ Macciato) surface0() Color {
+pub fn (_ Macchiato) surface0() Color {
 	return Color{
 		hex: '0x363a4f'
 		rgb: [54, 58, 79]!
@@ -194,7 +194,7 @@ pub fn (_ Macciato) surface0() Color {
 	}
 }
 
-pub fn (_ Macciato) base() Color {
+pub fn (_ Macchiato) base() Color {
 	return Color{
 		hex: '0x24273a'
 		rgb: [36, 39, 58]!
@@ -202,7 +202,7 @@ pub fn (_ Macciato) base() Color {
 	}
 }
 
-pub fn (_ Macciato) mantle() Color {
+pub fn (_ Macchiato) mantle() Color {
 	return Color{
 		hex: '0x1e2030'
 		rgb: [30, 32, 48]!
@@ -210,7 +210,7 @@ pub fn (_ Macciato) mantle() Color {
 	}
 }
 
-pub fn (_ Macciato) crust() Color {
+pub fn (_ Macchiato) crust() Color {
 	return Color{
 		hex: '0x181926'
 		rgb: [24, 25, 38]!
