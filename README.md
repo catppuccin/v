@@ -6,9 +6,9 @@
 </h3>
 
 <p align="center">
-	<a href="https://github.com/caarlos0/catppuccin-go/stargazers"><img src="https://img.shields.io/github/stars/delta456/catppuccin?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-	<a href="https://github.com/caarlos0/catppuccin-go/issues"><img src="https://img.shields.io/github/issues/delta456/catppuccin?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-	<a href="https://github.com/caarlos0/catppuccin-go/contributors"><img src="https://img.shields.io/github/contributors/delta456/catppuccin?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+	<a href="https://github.com/delta456/catppuccin/stargazers"><img src="https://img.shields.io/github/stars/delta456/catppuccin?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+	<a href="https://github.com/delta456/catppuccin/issues"><img src="https://img.shields.io/github/issues/delta456/catppuccin?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+	<a href="https://github.com/delta456/catppuccin/contributors"><img src="https://img.shields.io/github/contributors/delta456/catppuccin?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
 ## Usage
@@ -20,7 +20,7 @@
 ## 🙋 FAQ (optional)
 
 -	Q: **_"Where can I find the doc?"_**\
-	A: `v doc Delta456.catppuccin`
+	A: `v doc delta456.catppuccin`
 
 ## 💝 Thanks to
 
@@ -33,7 +33,7 @@
 </p>
 
 <p align="center">
-	Copyright &copy; 2021-present <a href="https://github.com/catppuccin" target="_blank">Catppuccin Org</a>
+	Copyright &copy; 2023-present <a href="https://github.com/catppuccin" target="_blank">Catppuccin Org</a>
 </p>
 
 <p align="center">
