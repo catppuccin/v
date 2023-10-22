@@ -27,7 +27,7 @@ fn main() {
 }
 ```
 
-## 🙋 FAQ (optional)
+## 🙋 FAQ
 
 -	Q: **_"Where can I find the doc?"_**\
 	A: `v doc delta456.catppuccin`
