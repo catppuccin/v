@@ -17,6 +17,16 @@
 2. Add an `import Delta456.catppuccin` to your file
 3. Use the flavours as you wish.
 
+```v
+import delta456.catppuccin
+import term
+
+fn main() {
+    mocha := catppuccin.new_mocha()
+    term.bg_hex(mocha.teal().hex.int(), 'teal')
+}
+```
+
 ## 🙋 FAQ (optional)
 
 -	Q: **_"Where can I find the doc?"_**\
