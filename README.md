@@ -23,7 +23,7 @@ import term
 
 fn main() {
     mocha := catppuccin.new_mocha()
-    term.bg_hex(mocha.teal().hex.int(), 'teal')
+    println(term.bg_hex(mocha.teal().hex.int(), 'teal'))
 }
 ```
 
