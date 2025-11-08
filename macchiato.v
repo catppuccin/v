@@ -2,14 +2,17 @@ module catppuccin
 
 pub struct Macchiato {}
 
+// new_macchiato returns a new Macchiato flavour instance.
 pub fn new_macchiato() Macchiato {
 	return Macchiato{}
 }
 
+// str returns the flavour name for Macchiato.
 pub fn (_ Macchiato) str() string {
 	return 'Macchiato'
 }
 
+// rosewater returns the 'rosewater' Color for the Macchiato flavour.
 pub fn (_ Macchiato) rosewater() Color {
 	return Color{
 		hex: '0xf4dbd6'
@@ -18,6 +21,7 @@ pub fn (_ Macchiato) rosewater() Color {
 	}
 }
 
+// flamingo returns the 'flamingo' Color for the Macchiato flavour.
 pub fn (_ Macchiato) flamingo() Color {
 	return Color{
 		hex: '0xf0c6c6'
@@ -26,6 +30,7 @@ pub fn (_ Macchiato) flamingo() Color {
 	}
 }
 
+// pink returns the 'pink' Color for the Macchiato flavour.
 pub fn (_ Macchiato) pink() Color {
 	return Color{
 		hex: '0xf5bde6'
@@ -34,6 +39,7 @@ pub fn (_ Macchiato) pink() Color {
 	}
 }
 
+// mauve returns the 'mauve' Color for the Macchiato flavour.
 pub fn (_ Macchiato) mauve() Color {
 	return Color{
 		hex: '0xc6a0f6'
@@ -42,6 +48,7 @@ pub fn (_ Macchiato) mauve() Color {
 	}
 }
 
+// red returns the 'red' Color for the Macchiato flavour.
 pub fn (_ Macchiato) red() Color {
 	return Color{
 		hex: '0xed8796'
@@ -50,6 +57,7 @@ pub fn (_ Macchiato) red() Color {
 	}
 }
 
+// maroon returns the 'maroon' Color for the Macchiato flavour.
 pub fn (_ Macchiato) maroon() Color {
 	return Color{
 		hex: '0xee99a0'
@@ -58,6 +66,7 @@ pub fn (_ Macchiato) maroon() Color {
 	}
 }
 
+// peach returns the 'peach' Color for the Macchiato flavour.
 pub fn (_ Macchiato) peach() Color {
 	return Color{
 		hex: '0xf5a97f'
@@ -66,6 +75,7 @@ pub fn (_ Macchiato) peach() Color {
 	}
 }
 
+// yellow returns the 'yellow' Color for the Macchiato flavour.
 pub fn (_ Macchiato) yellow() Color {
 	return Color{
 		hex: '0xeed49f'
@@ -74,6 +84,7 @@ pub fn (_ Macchiato) yellow() Color {
 	}
 }
 
+// green returns the 'green' Color for the Macchiato flavour.
 pub fn (_ Macchiato) green() Color {
 	return Color{
 		hex: '0xa6da95'
@@ -82,6 +93,7 @@ pub fn (_ Macchiato) green() Color {
 	}
 }
 
+// teal returns the 'teal' Color for the Macchiato flavour.
 pub fn (_ Macchiato) teal() Color {
 	return Color{
 		hex: '0x8bd5ca'
@@ -90,6 +102,7 @@ pub fn (_ Macchiato) teal() Color {
 	}
 }
 
+// sky returns the 'sky' Color for the Macchiato flavour.
 pub fn (_ Macchiato) sky() Color {
 	return Color{
 		hex: '0x91d7e3'
@@ -98,6 +111,7 @@ pub fn (_ Macchiato) sky() Color {
 	}
 }
 
+// sapphire returns the 'sapphire' Color for the Macchiato flavour.
 pub fn (_ Macchiato) sapphire() Color {
 	return Color{
 		hex: '0x7dc4e4'
@@ -106,6 +120,7 @@ pub fn (_ Macchiato) sapphire() Color {
 	}
 }
 
+// blue returns the 'blue' Color for the Macchiato flavour.
 pub fn (_ Macchiato) blue() Color {
 	return Color{
 		hex: '0x8aadf4'
@@ -114,6 +129,7 @@ pub fn (_ Macchiato) blue() Color {
 	}
 }
 
+// lavender returns the 'lavender' Color for the Macchiato flavour.
 pub fn (_ Macchiato) lavender() Color {
 	return Color{
 		hex: '0xb7bdf8'
@@ -122,6 +138,7 @@ pub fn (_ Macchiato) lavender() Color {
 	}
 }
 
+// text returns the 'text' Color for the Macchiato flavour.
 pub fn (_ Macchiato) text() Color {
 	return Color{
 		hex: '0xcad3f5'
@@ -130,6 +147,7 @@ pub fn (_ Macchiato) text() Color {
 	}
 }
 
+// subtext1 returns the 'subtext1' Color for the Macchiato flavour.
 pub fn (_ Macchiato) subtext1() Color {
 	return Color{
 		hex: '0xb8c0e0'
@@ -138,6 +156,7 @@ pub fn (_ Macchiato) subtext1() Color {
 	}
 }
 
+// subtext0 returns the 'subtext0' Color for the Macchiato flavour.
 pub fn (_ Macchiato) subtext0() Color {
 	return Color{
 		hex: '0xa5adcb'
@@ -146,6 +165,7 @@ pub fn (_ Macchiato) subtext0() Color {
 	}
 }
 
+// overlay2 returns the 'overlay2' Color for the Macchiato flavour.
 pub fn (_ Macchiato) overlay2() Color {
 	return Color{
 		hex: '0x939ab7'
@@ -154,6 +174,7 @@ pub fn (_ Macchiato) overlay2() Color {
 	}
 }
 
+// overlay1 returns the 'overlay1' Color for the Macchiato flavour.
 pub fn (_ Macchiato) overlay1() Color {
 	return Color{
 		hex: '0x8087a2'
@@ -162,6 +183,7 @@ pub fn (_ Macchiato) overlay1() Color {
 	}
 }
 
+// overlay0 returns the 'overlay0' Color for the Macchiato flavour.
 pub fn (_ Macchiato) overlay0() Color {
 	return Color{
 		hex: '0x6e738d'
@@ -170,6 +192,7 @@ pub fn (_ Macchiato) overlay0() Color {
 	}
 }
 
+// surface2 returns the 'surface2' Color for the Macchiato flavour.
 pub fn (_ Macchiato) surface2() Color {
 	return Color{
 		hex: '0x5b6078'
@@ -178,6 +201,7 @@ pub fn (_ Macchiato) surface2() Color {
 	}
 }
 
+// surface1 returns the 'surface1' Color for the Macchiato flavour.
 pub fn (_ Macchiato) surface1() Color {
 	return Color{
 		hex: '0x494d64'
@@ -186,6 +210,7 @@ pub fn (_ Macchiato) surface1() Color {
 	}
 }
 
+// surface0 returns the 'surface0' Color for the Macchiato flavour.
 pub fn (_ Macchiato) surface0() Color {
 	return Color{
 		hex: '0x363a4f'
@@ -194,6 +219,7 @@ pub fn (_ Macchiato) surface0() Color {
 	}
 }
 
+// base returns the 'base' Color for the Macchiato flavour.
 pub fn (_ Macchiato) base() Color {
 	return Color{
 		hex: '0x24273a'
@@ -202,6 +228,7 @@ pub fn (_ Macchiato) base() Color {
 	}
 }
 
+// mantle returns the 'mantle' Color for the Macchiato flavour.
 pub fn (_ Macchiato) mantle() Color {
 	return Color{
 		hex: '0x1e2030'
@@ -210,6 +237,7 @@ pub fn (_ Macchiato) mantle() Color {
 	}
 }
 
+// crust returns the 'crust' Color for the Macchiato flavour.
 pub fn (_ Macchiato) crust() Color {
 	return Color{
 		hex: '0x181926'

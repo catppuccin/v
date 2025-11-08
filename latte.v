@@ -2,14 +2,17 @@ module catppuccin
 
 pub struct Latte {}
 
+// new_latte returns a new Latte flavour instance.
 pub fn new_latte() Latte {
 	return Latte{}
 }
 
+// str returns the flavour name for Latte.
 pub fn (_ Latte) str() string {
 	return 'Latte'
 }
 
+// rosewater returns the 'rosewater' Color for the Latte flavour.
 pub fn (_ Latte) rosewater() Color {
 	return Color{
 		hex: '0xdc8a78'
@@ -18,6 +21,7 @@ pub fn (_ Latte) rosewater() Color {
 	}
 }
 
+// flamingo returns the 'flamingo' Color for the Latte flavour.
 pub fn (_ Latte) flamingo() Color {
 	return Color{
 		hex: '0xdd7878'
@@ -26,6 +30,7 @@ pub fn (_ Latte) flamingo() Color {
 	}
 }
 
+// pink returns the 'pink' Color for the Latte flavour.
 pub fn (_ Latte) pink() Color {
 	return Color{
 		hex: '0xea76cb'
@@ -34,6 +39,7 @@ pub fn (_ Latte) pink() Color {
 	}
 }
 
+// mauve returns the 'mauve' Color for the Latte flavour.
 pub fn (_ Latte) mauve() Color {
 	return Color{
 		hex: '0x8839ef'
@@ -42,6 +48,7 @@ pub fn (_ Latte) mauve() Color {
 	}
 }
 
+// red returns the 'red' Color for the Latte flavour.
 pub fn (_ Latte) red() Color {
 	return Color{
 		hex: '0xd20f39'
@@ -50,6 +57,7 @@ pub fn (_ Latte) red() Color {
 	}
 }
 
+// maroon returns the 'maroon' Color for the Latte flavour.
 pub fn (_ Latte) maroon() Color {
 	return Color{
 		hex: '0xe64553'
@@ -58,6 +66,7 @@ pub fn (_ Latte) maroon() Color {
 	}
 }
 
+// peach returns the 'peach' Color for the Latte flavour.
 pub fn (_ Latte) peach() Color {
 	return Color{
 		hex: '0xfe640b'
@@ -66,6 +75,7 @@ pub fn (_ Latte) peach() Color {
 	}
 }
 
+// yellow returns the 'yellow' Color for the Latte flavour.
 pub fn (_ Latte) yellow() Color {
 	return Color{
 		hex: '0xdf8e1d'
@@ -74,6 +84,7 @@ pub fn (_ Latte) yellow() Color {
 	}
 }
 
+// green returns the 'green' Color for the Latte flavour.
 pub fn (_ Latte) green() Color {
 	return Color{
 		hex: '0x40a02b'
@@ -82,6 +93,7 @@ pub fn (_ Latte) green() Color {
 	}
 }
 
+// teal returns the 'teal' Color for the Latte flavour.
 pub fn (_ Latte) teal() Color {
 	return Color{
 		hex: '0x179299'
@@ -90,6 +102,7 @@ pub fn (_ Latte) teal() Color {
 	}
 }
 
+// sky returns the 'sky' Color for the Latte flavour.
 pub fn (_ Latte) sky() Color {
 	return Color{
 		hex: '0x04a5e5'
@@ -98,6 +111,7 @@ pub fn (_ Latte) sky() Color {
 	}
 }
 
+// sapphire returns the 'sapphire' Color for the Latte flavour.
 pub fn (_ Latte) sapphire() Color {
 	return Color{
 		hex: '0x209fb5'
@@ -106,6 +120,7 @@ pub fn (_ Latte) sapphire() Color {
 	}
 }
 
+// blue returns the 'blue' Color for the Latte flavour.
 pub fn (_ Latte) blue() Color {
 	return Color{
 		hex: '0x1e66f5'
@@ -114,6 +129,7 @@ pub fn (_ Latte) blue() Color {
 	}
 }
 
+// lavender returns the 'lavender' Color for the Latte flavour.
 pub fn (_ Latte) lavender() Color {
 	return Color{
 		hex: '0x7287fd'
@@ -122,6 +138,7 @@ pub fn (_ Latte) lavender() Color {
 	}
 }
 
+// text returns the 'text' Color for the Latte flavour.
 pub fn (_ Latte) text() Color {
 	return Color{
 		hex: '0x4c4f69'
@@ -130,6 +147,7 @@ pub fn (_ Latte) text() Color {
 	}
 }
 
+// subtext1 returns the 'subtext1' Color for the Latte flavour.
 pub fn (_ Latte) subtext1() Color {
 	return Color{
 		hex: '0x5c5f77'
@@ -138,6 +156,7 @@ pub fn (_ Latte) subtext1() Color {
 	}
 }
 
+// subtext0 returns the 'subtext0' Color for the Latte flavour.
 pub fn (_ Latte) subtext0() Color {
 	return Color{
 		hex: '0x6c6f85'
@@ -146,6 +165,7 @@ pub fn (_ Latte) subtext0() Color {
 	}
 }
 
+// overlay2 returns the 'overlay2' Color for the Latte flavour.
 pub fn (_ Latte) overlay2() Color {
 	return Color{
 		hex: '0x7c7f93'
@@ -154,6 +174,7 @@ pub fn (_ Latte) overlay2() Color {
 	}
 }
 
+// overlay1 returns the 'overlay1' Color for the Latte flavour.
 pub fn (_ Latte) overlay1() Color {
 	return Color{
 		hex: '0x8c8fa1'
@@ -162,6 +183,7 @@ pub fn (_ Latte) overlay1() Color {
 	}
 }
 
+// overlay0 returns the 'overlay0' Color for the Latte flavour.
 pub fn (_ Latte) overlay0() Color {
 	return Color{
 		hex: '0x9ca0b0'
@@ -170,6 +192,7 @@ pub fn (_ Latte) overlay0() Color {
 	}
 }
 
+// surface2 returns the 'surface2' Color for the Latte flavour.
 pub fn (_ Latte) surface2() Color {
 	return Color{
 		hex: '0xacb0be'
@@ -178,6 +201,7 @@ pub fn (_ Latte) surface2() Color {
 	}
 }
 
+// surface1 returns the 'surface1' Color for the Latte flavour.
 pub fn (_ Latte) surface1() Color {
 	return Color{
 		hex: '0xbcc0cc'
@@ -186,6 +210,7 @@ pub fn (_ Latte) surface1() Color {
 	}
 }
 
+// surface0 returns the 'surface0' Color for the Latte flavour.
 pub fn (_ Latte) surface0() Color {
 	return Color{
 		hex: '0xccd0da'
@@ -194,6 +219,7 @@ pub fn (_ Latte) surface0() Color {
 	}
 }
 
+// base returns the 'base' Color for the Latte flavour.
 pub fn (_ Latte) base() Color {
 	return Color{
 		hex: '0xeff1f5'
@@ -202,6 +228,7 @@ pub fn (_ Latte) base() Color {
 	}
 }
 
+// mantle returns the 'mantle' Color for the Latte flavour.
 pub fn (_ Latte) mantle() Color {
 	return Color{
 		hex: '0xe6e9ef'
@@ -210,6 +237,7 @@ pub fn (_ Latte) mantle() Color {
 	}
 }
 
+// crust returns the 'crust' Color for the Latte flavour.
 pub fn (_ Latte) crust() Color {
 	return Color{
 		hex: '0xdce0e8'
