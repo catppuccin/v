@@ -2,14 +2,17 @@ module catppuccin
 
 pub struct Frappe {}
 
+// new_frappe returns a new Frappe flavour instance.
 pub fn new_frappe() Frappe {
 	return Frappe{}
 }
 
+// str returns the flavour name for Frappe.
 pub fn (_ Frappe) str() string {
 	return 'Frappe'
 }
 
+// rosewater returns the 'rosewater' Color for the Frappe flavour.
 pub fn (_ Frappe) rosewater() Color {
 	return Color{
 		hex: '0xf2d5cf'
@@ -18,6 +21,7 @@ pub fn (_ Frappe) rosewater() Color {
 	}
 }
 
+// flamingo returns the 'flamingo' Color for the Frappe flavour.
 pub fn (_ Frappe) flamingo() Color {
 	return Color{
 		hex: '0xeebebe'
@@ -26,6 +30,7 @@ pub fn (_ Frappe) flamingo() Color {
 	}
 }
 
+// pink returns the 'pink' Color for the Frappe flavour.
 pub fn (_ Frappe) pink() Color {
 	return Color{
 		hex: '0xf4b8e4'
@@ -34,6 +39,7 @@ pub fn (_ Frappe) pink() Color {
 	}
 }
 
+// mauve returns the 'mauve' Color for the Frappe flavour.
 pub fn (_ Frappe) mauve() Color {
 	return Color{
 		hex: '0xca9ee6'
@@ -42,6 +48,7 @@ pub fn (_ Frappe) mauve() Color {
 	}
 }
 
+// red returns the 'red' Color for the Frappe flavour.
 pub fn (_ Frappe) red() Color {
 	return Color{
 		hex: '0xe78284'
@@ -50,6 +57,7 @@ pub fn (_ Frappe) red() Color {
 	}
 }
 
+// maroon returns the 'maroon' Color for the Frappe flavour.
 pub fn (_ Frappe) maroon() Color {
 	return Color{
 		hex: '0xea999c'
@@ -58,6 +66,7 @@ pub fn (_ Frappe) maroon() Color {
 	}
 }
 
+// peach returns the 'peach' Color for the Frappe flavour.
 pub fn (_ Frappe) peach() Color {
 	return Color{
 		hex: '0xef9f76'
@@ -66,6 +75,7 @@ pub fn (_ Frappe) peach() Color {
 	}
 }
 
+// yellow returns the 'yellow' Color for the Frappe flavour.
 pub fn (_ Frappe) yellow() Color {
 	return Color{
 		hex: '0xe5c890'
@@ -74,6 +84,7 @@ pub fn (_ Frappe) yellow() Color {
 	}
 }
 
+// green returns the 'green' Color for the Frappe flavour.
 pub fn (_ Frappe) green() Color {
 	return Color{
 		hex: '0xa6d189'
@@ -82,6 +93,7 @@ pub fn (_ Frappe) green() Color {
 	}
 }
 
+// teal returns the 'teal' Color for the Frappe flavour.
 pub fn (_ Frappe) teal() Color {
 	return Color{
 		hex: '0x81c8be'
@@ -90,6 +102,7 @@ pub fn (_ Frappe) teal() Color {
 	}
 }
 
+// sky returns the 'sky' Color for the Frappe flavour.
 pub fn (_ Frappe) sky() Color {
 	return Color{
 		hex: '0x99d1db'
@@ -98,6 +111,7 @@ pub fn (_ Frappe) sky() Color {
 	}
 }
 
+// sapphire returns the 'sapphire' Color for the Frappe flavour.
 pub fn (_ Frappe) sapphire() Color {
 	return Color{
 		hex: '0x85c1dc'
@@ -106,6 +120,7 @@ pub fn (_ Frappe) sapphire() Color {
 	}
 }
 
+// blue returns the 'blue' Color for the Frappe flavour.
 pub fn (_ Frappe) blue() Color {
 	return Color{
 		hex: '0x8caaee'
@@ -114,6 +129,7 @@ pub fn (_ Frappe) blue() Color {
 	}
 }
 
+// lavender returns the 'lavender' Color for the Frappe flavour.
 pub fn (_ Frappe) lavender() Color {
 	return Color{
 		hex: '0xbabbf1'
@@ -122,6 +138,7 @@ pub fn (_ Frappe) lavender() Color {
 	}
 }
 
+// text returns the 'text' Color for the Frappe flavour.
 pub fn (_ Frappe) text() Color {
 	return Color{
 		hex: '0xc6d0f5'
@@ -130,6 +147,7 @@ pub fn (_ Frappe) text() Color {
 	}
 }
 
+// subtext1 returns the 'subtext1' Color for the Frappe flavour.
 pub fn (_ Frappe) subtext1() Color {
 	return Color{
 		hex: '0xb5bfe2'
@@ -138,6 +156,7 @@ pub fn (_ Frappe) subtext1() Color {
 	}
 }
 
+// subtext0 returns the 'subtext0' Color for the Frappe flavour.
 pub fn (_ Frappe) subtext0() Color {
 	return Color{
 		hex: '0xa5adce'
@@ -146,6 +165,7 @@ pub fn (_ Frappe) subtext0() Color {
 	}
 }
 
+// overlay2 returns the 'overlay2' Color for the Frappe flavour.
 pub fn (_ Frappe) overlay2() Color {
 	return Color{
 		hex: '0x949cbb'
@@ -154,6 +174,7 @@ pub fn (_ Frappe) overlay2() Color {
 	}
 }
 
+// overlay1 returns the 'overlay1' Color for the Frappe flavour.
 pub fn (_ Frappe) overlay1() Color {
 	return Color{
 		hex: '0x838ba7'
@@ -162,6 +183,7 @@ pub fn (_ Frappe) overlay1() Color {
 	}
 }
 
+// overlay0 returns the 'overlay0' Color for the Frappe flavour.
 pub fn (_ Frappe) overlay0() Color {
 	return Color{
 		hex: '0x737994'
@@ -170,6 +192,7 @@ pub fn (_ Frappe) overlay0() Color {
 	}
 }
 
+// surface2 returns the 'surface2' Color for the Frappe flavour.
 pub fn (_ Frappe) surface2() Color {
 	return Color{
 		hex: '0x626880'
@@ -178,6 +201,7 @@ pub fn (_ Frappe) surface2() Color {
 	}
 }
 
+// surface1 returns the 'surface1' Color for the Frappe flavour.
 pub fn (_ Frappe) surface1() Color {
 	return Color{
 		hex: '0x51576d'
@@ -186,6 +210,7 @@ pub fn (_ Frappe) surface1() Color {
 	}
 }
 
+// surface0 returns the 'surface0' Color for the Frappe flavour.
 pub fn (_ Frappe) surface0() Color {
 	return Color{
 		hex: '0x414559'
@@ -194,6 +219,7 @@ pub fn (_ Frappe) surface0() Color {
 	}
 }
 
+// base returns the 'base' Color for the Frappe flavour.
 pub fn (_ Frappe) base() Color {
 	return Color{
 		hex: '0x303446'
@@ -202,6 +228,7 @@ pub fn (_ Frappe) base() Color {
 	}
 }
 
+// mantle returns the 'mantle' Color for the Frappe flavour.
 pub fn (_ Frappe) mantle() Color {
 	return Color{
 		hex: '0x292c3c'
@@ -210,6 +237,7 @@ pub fn (_ Frappe) mantle() Color {
 	}
 }
 
+// crust returns the 'crust' Color for the Frappe flavour.
 pub fn (_ Frappe) crust() Color {
 	return Color{
 		hex: '0x232634'

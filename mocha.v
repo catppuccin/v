@@ -2,14 +2,17 @@ module catppuccin
 
 pub struct Mocha {}
 
+// new_mocha returns a new Mocha flavour instance.
 pub fn new_mocha() Mocha {
 	return Mocha{}
 }
 
+// str returns the flavour name for Mocha.
 pub fn (_ Mocha) str() string {
 	return 'Mocha'
 }
 
+// rosewater returns the 'rosewater' Color for the Mocha flavour.
 pub fn (_ Mocha) rosewater() Color {
 	return Color{
 		hex: '0xf5e0dc'
@@ -18,6 +21,7 @@ pub fn (_ Mocha) rosewater() Color {
 	}
 }
 
+// flamingo returns the 'flamingo' Color for the Mocha flavour.
 pub fn (_ Mocha) flamingo() Color {
 	return Color{
 		hex: '0xf2cdcd'
@@ -26,6 +30,7 @@ pub fn (_ Mocha) flamingo() Color {
 	}
 }
 
+// pink returns the 'pink' Color for the Mocha flavour.
 pub fn (_ Mocha) pink() Color {
 	return Color{
 		hex: '0xf5c2e7'
@@ -34,6 +39,7 @@ pub fn (_ Mocha) pink() Color {
 	}
 }
 
+// mauve returns the 'mauve' Color for the Mocha flavour.
 pub fn (_ Mocha) mauve() Color {
 	return Color{
 		hex: '0xcba6f7'
@@ -42,6 +48,7 @@ pub fn (_ Mocha) mauve() Color {
 	}
 }
 
+// red returns the 'red' Color for the Mocha flavour.
 pub fn (_ Mocha) red() Color {
 	return Color{
 		hex: '0xf38ba8'
@@ -50,6 +57,7 @@ pub fn (_ Mocha) red() Color {
 	}
 }
 
+// maroon returns the 'maroon' Color for the Mocha flavour.
 pub fn (_ Mocha) maroon() Color {
 	return Color{
 		hex: '0xeba0ac'
@@ -58,6 +66,7 @@ pub fn (_ Mocha) maroon() Color {
 	}
 }
 
+// peach returns the 'peach' Color for the Mocha flavour.
 pub fn (_ Mocha) peach() Color {
 	return Color{
 		hex: '0xfab387'
@@ -66,6 +75,7 @@ pub fn (_ Mocha) peach() Color {
 	}
 }
 
+// yellow returns the 'yellow' Color for the Mocha flavour.
 pub fn (_ Mocha) yellow() Color {
 	return Color{
 		hex: '0xf9e2af'
@@ -74,6 +84,7 @@ pub fn (_ Mocha) yellow() Color {
 	}
 }
 
+// green returns the 'green' Color for the Mocha flavour.
 pub fn (_ Mocha) green() Color {
 	return Color{
 		hex: '0xa6e3a1'
@@ -82,6 +93,7 @@ pub fn (_ Mocha) green() Color {
 	}
 }
 
+// teal returns the 'teal' Color for the Mocha flavour.
 pub fn (_ Mocha) teal() Color {
 	return Color{
 		hex: '0x94e2d5'
@@ -90,6 +102,7 @@ pub fn (_ Mocha) teal() Color {
 	}
 }
 
+// sky returns the 'sky' Color for the Mocha flavour.
 pub fn (_ Mocha) sky() Color {
 	return Color{
 		hex: '0x89dceb'
@@ -98,6 +111,7 @@ pub fn (_ Mocha) sky() Color {
 	}
 }
 
+// sapphire returns the 'sapphire' Color for the Mocha flavour.
 pub fn (_ Mocha) sapphire() Color {
 	return Color{
 		hex: '0x74c7ec'
@@ -106,6 +120,7 @@ pub fn (_ Mocha) sapphire() Color {
 	}
 }
 
+// blue returns the 'blue' Color for the Mocha flavour.
 pub fn (_ Mocha) blue() Color {
 	return Color{
 		hex: '0x89b4fa'
@@ -114,6 +129,7 @@ pub fn (_ Mocha) blue() Color {
 	}
 }
 
+// lavender returns the 'lavender' Color for the Mocha flavour.
 pub fn (_ Mocha) lavender() Color {
 	return Color{
 		hex: '0xb4befe'
@@ -122,6 +138,7 @@ pub fn (_ Mocha) lavender() Color {
 	}
 }
 
+// text returns the 'text' Color for the Mocha flavour.
 pub fn (_ Mocha) text() Color {
 	return Color{
 		hex: '0xcdd6f4'
@@ -130,6 +147,7 @@ pub fn (_ Mocha) text() Color {
 	}
 }
 
+// subtext1 returns the 'subtext1' Color for the Mocha flavour.
 pub fn (_ Mocha) subtext1() Color {
 	return Color{
 		hex: '0xbac2de'
@@ -138,6 +156,7 @@ pub fn (_ Mocha) subtext1() Color {
 	}
 }
 
+// subtext0 returns the 'subtext0' Color for the Mocha flavour.
 pub fn (_ Mocha) subtext0() Color {
 	return Color{
 		hex: '0xa6adc8'
@@ -146,6 +165,7 @@ pub fn (_ Mocha) subtext0() Color {
 	}
 }
 
+// overlay2 returns the 'overlay2' Color for the Mocha flavour.
 pub fn (_ Mocha) overlay2() Color {
 	return Color{
 		hex: '0x9399b2'
@@ -154,6 +174,7 @@ pub fn (_ Mocha) overlay2() Color {
 	}
 }
 
+// overlay1 returns the 'overlay1' Color for the Mocha flavour.
 pub fn (_ Mocha) overlay1() Color {
 	return Color{
 		hex: '0x7f849c'
@@ -162,6 +183,7 @@ pub fn (_ Mocha) overlay1() Color {
 	}
 }
 
+// overlay0 returns the 'overlay0' Color for the Mocha flavour.
 pub fn (_ Mocha) overlay0() Color {
 	return Color{
 		hex: '0x6c7086'
@@ -170,6 +192,7 @@ pub fn (_ Mocha) overlay0() Color {
 	}
 }
 
+// surface2 returns the 'surface2' Color for the Mocha flavour.
 pub fn (_ Mocha) surface2() Color {
 	return Color{
 		hex: '0x585b70'
@@ -178,6 +201,7 @@ pub fn (_ Mocha) surface2() Color {
 	}
 }
 
+// surface1 returns the 'surface1' Color for the Mocha flavour.
 pub fn (_ Mocha) surface1() Color {
 	return Color{
 		hex: '0x45475a'
@@ -186,6 +210,7 @@ pub fn (_ Mocha) surface1() Color {
 	}
 }
 
+// surface0 returns the 'surface0' Color for the Mocha flavour.
 pub fn (_ Mocha) surface0() Color {
 	return Color{
 		hex: '0x313244'
@@ -194,6 +219,7 @@ pub fn (_ Mocha) surface0() Color {
 	}
 }
 
+// base returns the 'base' Color for the Mocha flavour.
 pub fn (_ Mocha) base() Color {
 	return Color{
 		hex: '0x1e1e2e'
@@ -202,6 +228,7 @@ pub fn (_ Mocha) base() Color {
 	}
 }
 
+// mantle returns the 'mantle' Color for the Mocha flavour.
 pub fn (_ Mocha) mantle() Color {
 	return Color{
 		hex: '0x181825'
@@ -210,6 +237,7 @@ pub fn (_ Mocha) mantle() Color {
 	}
 }
 
+// crust returns the 'crust' Color for the Mocha flavour.
 pub fn (_ Mocha) crust() Color {
 	return Color{
 		hex: '0x11111b'
